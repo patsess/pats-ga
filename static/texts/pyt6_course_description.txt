@@ -1,1 +1,1 @@
-An intensive six-day course on programming in Python. In addition to native coding, the topics covered were data manipulation using pandas, web apps with Flask, and web scraping with requests and BeautifulSoup. Students also had their own personal projects, supervised by the instructors.
+An intensive six-day course on programming in Python. In addition to native coding, the topics covered were data manipulation using Pandas, web apps with Flask, and web scraping with requests and BeautifulSoup. Students also had their own personal projects, supervised by the instructors.

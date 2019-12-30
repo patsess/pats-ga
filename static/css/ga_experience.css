@@ -1,0 +1,45 @@
+body {
+  background-color: #bbee9e;
+}
+
+div {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#title {
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 30px;
+  letter-spacing: -1px;
+  color: darkgreen;
+}
+
+h3 {
+  font-size: 2.1em;
+  font-weight: 999;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: darkgreen;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: darkgreen;
+}
+
+#content {
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+ul li {
+  padding: 5px 0px;
+}

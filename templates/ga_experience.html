@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pat's GA Experience</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ga_experience.css') }}">
+</head>
+
+<body>
+    <div id="title">
+        <h2>Teaching Experience at General Assembly</h2>
+        <a href="https://generalassemb.ly/">https://generalassemb.ly/</a>
+    </div>
+
+    <div id="content">
+        <h3>Python</h3>
+
+        <h4>My role: Teaching Assistant</h4>
+        <h4>Date: December 2019</h4>
+
+        <h4>Course description:</h4>
+        <p align="justify">{{pyt6_course_description}}</p>
+
+        <h4>Student feedback:</h4>
+        <p>Scores:</p>
+        <ul>
+            {% for feedback in pyt6_feedback_scores %}
+            <li>{{feedback|safe}}</li>
+            {% endfor %}
+        </ul>
+        <p>Quotes:</p>
+        <ul>
+            {% for feedback in pyt6_feedback_quotes %}
+            <li>"{{feedback}}"</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+</html>
